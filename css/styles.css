@@ -76,12 +76,12 @@ h5{
 	}
 
 	.img{
-		width: auto;
+		width: 100%;
 		height: auto;
 	}
 
 	.img2{
-		width: auto;
+		width: 100%;
 		height: auto;
 	}
 }
