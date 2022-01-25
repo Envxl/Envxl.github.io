@@ -1,0 +1,330 @@
+body {
+	background: url(../img/fond.jpg);
+	background-repeat: repeat-y;
+	color: white;
+	font-family: Helvetica;
+}
+
+h1{
+	margin-top: 70px;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+h2{
+	margin-top: 120px;
+	text-align: center;
+}
+
+
+.h2{
+	margin-top: 290px;
+}
+
+h3{
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+h4{
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+h5{
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+@media screen and (max-width: 900px){
+	.content{
+		flex-direction: column;
+		height: auto;
+		width: 100%;
+		font-size: 0 auto;
+	}
+
+	.left{
+		flex-direction: column;
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+	h1{
+		text-align: center;
+		width: 90%;
+	}
+
+	.right{
+		text-align: center;
+
+
+	}
+
+	.content2{
+		flex-direction: column;
+		height: auto;
+		width: 50%;
+		font-size: 0 auto;
+	}
+
+	.img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img2{
+		width: 100%;
+		height: auto;
+	}
+
+
+
+
+
+}
+
+.content {
+	display: flex;
+}
+
+
+.content>.left {
+	flex-basis: 55%;
+}
+
+.left-content {
+	margin: auto;
+	width: 50%;	
+	min-width: 400px;
+	font-size: 20px;
+
+}
+
+.content>.right {
+	flex-basis: 45%;	
+}
+
+.lien1{
+	color: white;
+	font-size: 1.2em;
+}
+
+.lien1 li {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.lien1 li a{
+	color: white;
+	text-decoration: none;
+}
+
+.lien1 li:hover a{
+	font-weight: bolder;
+}
+
+.img{
+	margin-top: 130px;
+	height: 375px;
+	
+}
+
+.img2{
+	margin-top: 60px;
+	height: 319px;
+}
+
+
+
+
+
+.content2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.center{
+	flex-basis: 33.3333333333%;
+	line-height: 120%;
+
+}
+
+.left2{
+
+	flex-basis: 33.3333333333%;
+	text-align: center;
+	white-space: pre-line;
+}
+
+.right2{
+	flex-basis: 33.3333333333%;
+	text-align: center;
+
+}
+
+.ethic{
+	margin-top: 50px;
+	transform: rotate(-45deg);
+}
+
+.blunt{
+	height: 250px;
+	margin-top: 150px;
+	transform: rotate(10deg);
+
+}
+
+.apex{
+	height: 125px;
+	margin-top: 65px;
+	transform: rotate(10deg);
+}
+
+.native{
+	margin-top: 120px;
+	height: 260px;
+	transform: rotate(-5deg);
+}
+
+ .accueil a{
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+}
+.accueil{
+	margin-top: -80px;
+	text-align: center;
+}
+
+
+.accueil a:hover {
+	font-weight: bolder;
+}
+
+.ligne{
+	height: 400px;
+	margin-top: -250px;
+}
+
+
+
+
+
+
+.compet{
+	color: white;
+}
+
+.content3{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.left3{
+	flex-basis: 33.3%;
+	line-height: 130%;
+
+}
+
+.right3{
+	flex-basis: 66.7%;
+	text-align: center;
+	margin-top: 120px;
+
+}
+
+.texte{
+	flex-basis: 30%;
+
+}
+
+.list{
+	width: 70%;
+    margin: auto;
+}
+
+.schema{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.schema2{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contest{
+	text-decoration: underline;
+	width: 85%;
+    margin: auto;
+    margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+ .accueil2 a{
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+}
+.accueil2{
+	display: flex;
+	margin-top: -80px;
+	justify-content: flex-end;
+	width: 40%;
+	margin: auto;
+	margin-top: -80px;
+}
+
+
+.accueil2 a:hover {
+	font-weight: bolder;
+}
+
+
+
+
+
+.content4{
+	display: flex;
+	justify-content: space-around;
+}
+
+.left4{
+	flex-basis: 50%;
+	width:  50%;
+	margin: auto;
+}
+
+.center4{
+
+}
+
+.right4{
+	flex-basis: 50%;
+
+}
+
+.left-content4{
+	width: 50%;
+	margin: auto;
+}
+
+.JP{
+	height: 350px;
+}
+
+.EC{
+	height: 350px;
+}
+
+.tEC{
+	margin-top: 50px;
+}
