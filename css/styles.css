@@ -1,4 +1,4 @@
-body {
+body{
 	background: url(../img/fond.jpg);
 	background-repeat: repeat-y;
 	color: white;
@@ -84,11 +84,6 @@ h5{
 		width: 100%;
 		height: auto;
 	}
-
-
-
-
-
 }
 
 .content {
@@ -141,10 +136,6 @@ h5{
 	margin-top: 60px;
 	height: 319px;
 }
-
-
-
-
 
 .content2{
 	display: flex;
@@ -214,11 +205,6 @@ h5{
 	margin-top: -250px;
 }
 
-
-
-
-
-
 .compet{
 	color: white;
 }
@@ -283,14 +269,9 @@ h5{
 	margin-top: -80px;
 }
 
-
 .accueil2 a:hover {
 	font-weight: bolder;
 }
-
-
-
-
 
 .content4{
 	display: flex;
