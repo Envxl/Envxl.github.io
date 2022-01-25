@@ -45,21 +45,21 @@ h5{
 	.content{
 		flex-direction: column;
 		height: auto;
-		width: auto;
+		width: 100%;
 		font-size: 0 auto;
 	}
 
 	.left{
 		flex-direction: column;
 		height: auto;
-		width: auto;
+		width: 100%;
 		margin: 0 auto;
 
 	}
 
 	h1{
 		text-align: center;
-		width: auto;
+		width: 100%;
 	}
 
 	.right{
