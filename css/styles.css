@@ -50,8 +50,8 @@ h5{
 }
 
 .left-content {
-	margin: auto;
-	width: 50%;	
+	margin: 0 auto;
+	width: 100%;	
 	min-width: 400px;
 	font-size: 20px;
 
