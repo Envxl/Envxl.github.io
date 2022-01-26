@@ -41,7 +41,7 @@ h5{
 }
 
 
-@media screen and (max-width: 900px){
+/*@media screen and (max-width: 900px){
 	.content{
 		flex-direction: column;
 		height: auto;
@@ -84,7 +84,7 @@ h5{
 		width: 100%;
 		height: auto;
 	}
-}
+}*/
 
 .content {
 	display: flex;
